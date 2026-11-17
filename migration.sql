@@ -1,0 +1,4 @@
+USE pawhaven;
+ALTER TABLE reports ADD code VARCHAR(16) UNIQUE;
+ALTER TABLE adoption_requests ADD code VARCHAR(16) UNIQUE;
+ALTER TABLE donations ADD code VARCHAR(16) UNIQUE;
